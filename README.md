@@ -28,7 +28,7 @@ The system leverages:
 ## Usage
 
 1. Clone the repository: `git clone https://github.com/Cesarpinagon/CRUD_PHP.git`
-2. Set up your database configuration in `config.php`.
+2. Set up your database configuration in `db.php`.
 3. Run the PHP files on a server that supports PHP (e.g., Apache, Nginx).
 
 
