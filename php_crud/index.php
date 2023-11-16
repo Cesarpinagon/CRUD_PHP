@@ -31,15 +31,15 @@ include("includes/header.php");
             <div class="card card-body">
                 <form action="save_user.php" method="post">
                     <div class="form-group">
-                        <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                        <input type="text" name="nombre" class="form-control" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="correo" class="form-control" placeholder="Correo">
+                        <input type="text" name="correo" class="form-control" placeholder="Email">
                     </div>
                     <div class="form-group">
                         <textarea type="text" rows="10" name="cv" class="form-control" placeholder="Curriculum"></textarea>
                     </div>
-                    <input type="submit" value="Guardar usuario" name="guardar_usr" class="btn btn-success btn-block">
+                    <input type="submit" value="Save user" name="guardar_usr" class="btn btn-success btn-block">
                 </form>
             </div>
         </div>
@@ -48,11 +48,11 @@ include("includes/header.php");
             <table class="table table-bordered table-dark">
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Correo</th>
+                        <th>Name</th>
+                        <th>Email</th>
                         <th>Curriculum</th>
-                        <th>Fecha de registro</th>
-                        <th>Acciones</th>
+                        <th>Registration date</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>

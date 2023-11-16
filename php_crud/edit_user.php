@@ -24,7 +24,7 @@
         $query = "UPDATE usuarios SET nombre = '$nombre', correo = '$correo', cv = '$cv' WHERE id = $id";
         mysqli_query($conn, $query);
 
-        $_SESSION['mensaje'] = 'Usuario actualizado';
+        $_SESSION['mensaje'] = 'Updated user';
         $_SESSION['color'] = 'warning';
         header("Location: index.php");
     }
@@ -47,7 +47,7 @@
                     <div class="form-group">
                         <textarea type="text" rows="10" name="cv" class="form-control"><?php echo $cv; ?></textarea>
                     </div>
-                    <input type="submit" value="Editar usuario" name="edit_usr" class="btn btn-success btn-block"> 
+                    <input type="submit" value="Edit user" name="edit_usr" class="btn btn-success btn-block"> 
 
                 </form>
             </div>
