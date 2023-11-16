@@ -9,8 +9,8 @@
     );
 
     if(isset($conn)){
-        echo "<script>console.log('Conexion exitosa')</script>";
+        echo "<script>console.log('successful connection')</script>";
     }else{
-        echo "<script>console.log('Conexion fallida')</script>";
+        echo "<script>console.log('Failed connection')</script>";
     }
 ?>
